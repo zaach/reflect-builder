@@ -11,10 +11,14 @@ Example:
     var soure = "var a = b + c;";
     var ast = Reflect.parse(source, {builder: builder});
 
-#### Node Properties
+## Install
 
-See the [Mozilla](https://developer.mozilla.org/en/SpiderMonkey/Parser_API#Node_objects) docs.
+npm install reflect-builder
 
-## License
+## Node Properties
+
+See the [Mozilla docs](https://developer.mozilla.org/en/SpiderMonkey/Parser_API#Node_objects).
+
+# License
 
 MIT X License
